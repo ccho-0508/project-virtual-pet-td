@@ -3,17 +3,17 @@ import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import './PetDisplay.css'
 import '../Inventory/Inventory.css'
-import orangesheet from '../../../src/images/orange_happy_sheet.png'
-import graysheet from '../../../src/images/gray_happy_sheet.png'
+import orangesheet from '../../images/orange_happy_sheet.png'
+import graysheet from '../../images/gray_happy_sheet.png'
 import { useDrop } from "react-dnd";
 import { useContext, useEffect, useRef, useState } from 'react';
 import Spritesheet from 'react-responsive-spritesheet'
 import bgimage from '../../images/bg.gif'
 import ProgressBar from 'react-bootstrap/ProgressBar';
-import CalculateXP from '../../algos/assignXP';
-import CalculatePetLevel from '../../algos/calculatePetLevel';
+import CalculateXP from '../../algos/assignXP.js';
+import CalculatePetLevel from '../../algos/calculatePetLevel.js';
 //import AvatarContext from "../../context/AvatarContext";
-import useAxiosPrivate from "../../hooks/useAxiosPrivate";
+import useAxiosPrivate from "../../hooks/useAxiosPrivate.js";
 import GlobalContext from '../../context/GlobalContext.js';
 // (next level - remainder) / (next level) //
 

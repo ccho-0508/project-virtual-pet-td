@@ -1,11 +1,11 @@
 import kittycat from '../../images/orangecat.png';
 import Spritesheet from 'react-responsive-spritesheet'
 import bgimage from '../../images/bg.gif'
-import orangesheet from '../../../src/images/orange_happy_sheet.png'
-import graysheet from '../../../src/images/gray_happy_sheet.png' 
+import orangesheet from '../../images/orange_happy_sheet.png'
+import graysheet from '../../images/gray_happy_sheet.png' 
 import "./PetDisplay"
 import { useState, useContext, useRef } from 'react'
-import '../../../src/components/AnimateChoice.css'
+import '../AnimateChoice.css'
 import SpriteSheetContext from '../../context/SpriteSheetContext';
 
 

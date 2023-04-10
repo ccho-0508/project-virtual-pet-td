@@ -11,7 +11,7 @@ import Login from './components/LoginLogout/Login.js'
 import Logout from './components/LoginLogout/Logout.js'
 import Layout from './components/Layout.js'
 import LandingPage from './components/LandingPage.js'
-import Loader from './components/Loader'
+import Loader from './components/Loader.js'
 
 import PersistLogin from './components/LoginLogout/PersistLogin.js'
 import RequireAuth from './components/LoginLogout/RequireAuth.js'
@@ -21,7 +21,7 @@ import {Routes,Route} from 'react-router-dom';
 
 import './App.css'
 import CanvasIntegrationPage from './components/CanvasIntegrationPage.js'
-import AccountPage from './components/AccountPage'
+import AccountPage from './components/AccountPage.js'
 
 function App(){
 

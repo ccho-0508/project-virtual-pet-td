@@ -4,7 +4,7 @@ import Footer from './Footer.js'
 import { Outlet } from "react-router-dom"
 import { useState, useEffect } from 'react'
 import useAxiosPrivate from '../hooks/useAxiosPrivate.js';
-import UserContext from "../context/UserContext"
+import UserContext from "../context/UserContext.js"
 
 const Layout = () => {
     const axiosPrivate = useAxiosPrivate();

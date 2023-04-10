@@ -1,6 +1,6 @@
 import Spritesheet from 'react-responsive-spritesheet'
-import orangesheet from '../../src/images/orange_happy_sheet.png'
-import graysheet from '../../src/images/gray_happy_sheet.png' 
+import orangesheet from '../images/orange_happy_sheet.png'
+import graysheet from '../images/gray_happy_sheet.png' 
 import './AnimateChoice.css'
 import './textbox.css'
 import Card from 'react-bootstrap/Card';

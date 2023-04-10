@@ -202,7 +202,6 @@ class Task(models.Model):
                              on_delete=models.CASCADE)
     title = models.CharField(max_length=300, default="A new task!")
     due_date = models.DateField(null=True, blank=True)
-    due_date2 = models.DateField(null=True, blank=True)
     created_date = models.DateTimeField(default=timezone.now)
     completed_date = models.DateField(default=None, null=True, blank=True)
     completed = models.BooleanField(default=False)
