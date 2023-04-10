@@ -16,7 +16,7 @@ const LandingPage = () => {
     
     return (
         <div className="landingpage">
-        <h1><center>WELCOME TO STUDY BUDDYYYYYYYY!</center></h1>
+        <h1><center>WELCOME</center></h1>
         <img src={kittycat} alt="cat" className='image' />
        <center><Card className = "card" style={{width: '30rem'}}>
             <Card.Title>About</Card.Title>
